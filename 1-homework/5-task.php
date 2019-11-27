@@ -29,5 +29,5 @@ $cars = [
 ];
 
 foreach ($cars as $name => $value) {
-    echo "CAR $name<br> $value[model]   $value[speed]   $value[doors]   $value[years]<br><br>";
+    echo "CAR $name<br> $value['model']   $value['speed']   $value['doors']   $value['years']<br><br>";
 };
